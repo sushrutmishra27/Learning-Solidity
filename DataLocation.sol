@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 contract DataLocations {
     uint[] public arr;
-    mapping(uint => address) map;
+    mapping (uint => address) map;
     struct MyStruct {
         uint foo;
     }
