@@ -11,7 +11,7 @@ contract DataLocations {
 
     function f() public {
         // call _f with state variables
-        _f(arr, map, myStructs[1]);
+        _f(arr, map, myStructs[1]); 
 
         // get a struct from a mapping
         MyStruct storage myStruct = myStructs[1];
