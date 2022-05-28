@@ -1,10 +1,15 @@
-# Learning-Solidity
-These are the basic beginner programs I implement in Solidity to get a grasp of Blockchain Development. Let's go!!!
+# Basic Sample Hardhat Project
 
-Learn about Web3 and Blockchain - learnweb3.io.
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-Learn basic Solidity concepts and implementations - https://solidity-by-example.org/.
+Try running some of the following tasks:
 
-Learn to build dApps and Web3 games with Crypto Zombies - https://cryptozombies.io/
-
-
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
