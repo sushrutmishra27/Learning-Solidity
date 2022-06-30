@@ -24,7 +24,7 @@ contract DataLocations {
         mapping(uint => address) storage _map,
         MyStruct storage _myStruct
     ) internal {
-        // do something with storage variables
+        //do something with storage variables
     }
 
     // You can return memory variables
