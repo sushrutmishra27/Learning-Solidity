@@ -7,7 +7,7 @@ contract DataLocations {
     struct MyStruct {
         uint foo;
     }
-    mapping(uint => MyStruct) myStructs;
+    mapping(uint =>MyStruct) myStructs;
 
     function f() public {
         // call _f with state variables
