@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
+
 contract DataLocations {
     uint[] public arr;
     mapping (uint => address) map;
@@ -18,6 +19,7 @@ contract DataLocations {
         // create a struct in memory
         MyStruct memory myMemStruct = MyStruct(0);
     }
+
 
     function _f(
         uint[] storage _arr,
