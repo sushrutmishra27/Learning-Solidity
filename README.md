@@ -7,6 +7,7 @@ pragma solidity ^0.8.10;
 contract HelloWorld {
 
 }
+
 ```
 
 ### Variables and types
