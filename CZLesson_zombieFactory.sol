@@ -1,7 +1,6 @@
 pragma solidity >=0.5.0 <0.6.0;
 
 contract ZombieFactory {
-
     event NewZombie(uint zombieId, string name, uint dna);
 
     uint dnaDigits = 16;
@@ -35,6 +34,5 @@ contract ZombieFactory {
         randDna = randDna - randDna % 100;
         _createZombie(_name, randDna);
     }
-
 }
 
