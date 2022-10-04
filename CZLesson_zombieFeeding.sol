@@ -1,5 +1,4 @@
 pragma solidity >=0.5.0 <0.6.0;
-
 import "./zombiefactory.sol";
 
 contract KittyInterface {
@@ -33,12 +32,11 @@ contract ZombieFeeding is ZombieFactory {
     _createZombie("NoName", newDna);
   }
 
-
   function feedOnKitty(uint _zombieId, uint _kittyId) public {
     uint kittyDna;
     (,,,,,,,,,kittyDna) = kittyContract.getKitty(_kittyId);
     // And modify function call here:
     feedAndMultiply(_zombieId, kittyDna);
   }
-
+  
 }
