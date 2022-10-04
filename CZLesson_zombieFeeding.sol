@@ -3,6 +3,7 @@ pragma solidity >=0.5.0 <0.6.0;
 import "./zombiefactory.sol";
 
 contract KittyInterface {
+
   function getKitty(uint256 _id) external view returns (
     bool isGestating,
     bool isReady,
@@ -31,6 +32,7 @@ contract ZombieFeeding is ZombieFactory {
     // Add an if statement here
     _createZombie("NoName", newDna);
   }
+
 
   function feedOnKitty(uint _zombieId, uint _kittyId) public {
     uint kittyDna;
