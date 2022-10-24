@@ -1,4 +1,5 @@
 ### Initializing smart contracts
+### Learn Solidity
 ```
 // Define the compiler version you would be using
 pragma solidity ^0.8.10;
